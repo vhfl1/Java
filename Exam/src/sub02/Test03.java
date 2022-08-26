@@ -17,17 +17,17 @@ public class Test03 {
 		}
 		
 		System.out.print("\n");
-	
+		
 		//배열의 원소를 역순으로 정렬
 		for(int j = 0; j < 5; j++) {
 			int temp = arr[j];
 			arr[j] = arr[9-j];
-			arr[9-j] = temp;		
+			arr[9-j] = temp;
 		}
 		
 		//역순으로 정렬된 배열 출력
 		for(int n : arr) {
-			System.out.println(n+", ");
+			System.out.print(n + ", ");
 		}
 		
   }

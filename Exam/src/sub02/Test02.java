@@ -17,8 +17,7 @@ public class Test02 {
 			if(maxNum < arr[i]) {
 				maxNum = arr[i];
 			}
-			
 		}
-		System.out.println("배열 arr에서 가장 큰 수 : "+maxNum );	
+		System.out.println("배열 arr에서 가장 큰 수 : "+maxNum);
 	}
 }
