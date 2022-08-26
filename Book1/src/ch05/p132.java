@@ -2,7 +2,7 @@ package ch05;
 
 public class p132 {
 
-	public class Student{
+	
 		int studentID;
 		String studentName;
 		int grade;
@@ -10,7 +10,7 @@ public class p132 {
 		
 		public void showStudentInfo() {
 			System.out.println(studentName + "," + address);
-		}
+		
 		
 	}
 }

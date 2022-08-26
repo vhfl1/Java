@@ -2,7 +2,7 @@ package ch05;
 
 public class p137 {
 
-	public class FunctionTest{
+	
 		public static void main(String[] args) {
 			int num1 = 10;
 			int num2 = 20;
@@ -15,6 +15,6 @@ public class p137 {
 			int result = n1 + n2;
 			return result;
 			
-		}
+		
 	}
 }
