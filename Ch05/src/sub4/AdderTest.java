@@ -45,6 +45,7 @@ public class AdderTest {
 		adder.add(arr);
 		System.out.println("2) x : "+Adder.x);
 		
+		
 		Adder.add(adder);
 		System.out.println("3) x : "+Adder.x);
 		
