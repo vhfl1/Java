@@ -13,10 +13,10 @@ public class Truck extends Car {
 		this.capacity += capacity;
 	}
 	
-	@Override
-	public void speedUp(int speed) {
-		this.speed += speed - 10;
-	}
+    @Override
+    public void speedUp(int speed) {
+    	this.speed += speed - 10;
+    }
 	
 	public void show() {
 		System.out.println("트럭명 : "+name);
