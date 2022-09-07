@@ -15,13 +15,13 @@ public class Switchtest {
 		//사용자 입력
 		System.out.print("숫자 입력 : ");
 		
-		Scanner sc = new Scanner(System.in) {
+		Scanner sc = new Scanner(System.in);
+			
 			int number = sc.nextInt();
-			System.out.printIn("입력한 숫자 :" + number);
 			
+			System.out.println("입력한 숫자 :" + number);
 		
-
-			
+				
 			switch (number % 2) {
 			
 			case 0:
@@ -31,9 +31,6 @@ public class Switchtest {
 			case 1:
 				System.out.println("number는 홀수입니다.");
 				break;
-			}
-		
-		
+			}	
 	}
-
 }
