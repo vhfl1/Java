@@ -28,14 +28,14 @@ public class UpdateTest {
 			//3단계-SQL 실행객체 생성
 			Statement stmt = conn.createStatement();
 			
-			//4단계
+			//4단계-SQL 실행
 			String sql = "UPDATE `User2` SET `name`='홍길동', `hp`='010-1111-1111' ";
 				   sql += "WHERE `uid`='a101';";
 			
 		    stmt.executeUpdate(sql);
 			
 			//5단계
-			//6단계
+			//6단계-데이터베이스 종료
 			stmt.close();
 			conn.close();
 						

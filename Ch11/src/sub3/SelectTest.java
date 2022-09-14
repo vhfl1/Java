@@ -19,7 +19,7 @@ public class SelectTest {
 		String pass = "1234";
 		
 		try {
-			//1단계
+			//1단계-JDBC 드라이버 로드
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			
 			//2단계-데이터베이스 접속

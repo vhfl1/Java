@@ -25,10 +25,6 @@ public class InterfaceTest {
 		
 		bongo.speedUp(80);
 		bongo.speedDown(20);
-		bongo.show();
-		
-		//인터페이스를 활용한 결합도 완화
-		
-		
+		bongo.show();		
 	}
 }

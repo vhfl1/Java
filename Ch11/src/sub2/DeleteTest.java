@@ -32,7 +32,7 @@ public class DeleteTest {
 			
 			stmt.executeUpdate(sql);
 		
-			//6단계
+			//6단계-데이터베이스 종료
 			stmt.close();
 			conn.close();
 					
