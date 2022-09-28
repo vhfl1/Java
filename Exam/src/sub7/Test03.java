@@ -14,8 +14,8 @@ class Bus{
 	}
 			
 	public void Take(String name) {
-		System.out.printf("%s은 %s버스를 탑니다.", name, number);
-		System.out.printf("버스요금은 %,d입니다.", fee);
+		System.out.printf("%s은 %s버스를 탑니다.\n", name, number);
+		System.out.printf("버스요금은 %,d입니다.\n", fee);
 	}
 }
 
@@ -62,8 +62,8 @@ public class Test03 {
 		Bus bus = new Bus("64", 1500);
 		Subway subway = new Subway("1", 1600);
 		
-		kim.takeBus();
-		lee.takeSubway();
+		kim.takeBus(bus);
+		lee.takeSubway(subway);
 		
 	}
 

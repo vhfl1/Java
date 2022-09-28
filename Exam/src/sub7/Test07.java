@@ -29,14 +29,14 @@ public class Test07 {
 
 	public static void main(String[] args) {
 		
-		BaseBallPlayer p1 = new BaseBallPlayer();
-		FootBallPlayer p2 = new FootBallPlayer();
+		Player p1 = new BaseBallPlayer();
+		Player p2 = new FootBallPlayer();
 		
 		playGame(p1);
 		playGame(p2);
 	}
 	
-	public static void playGame() {
+	public static void playGame(Player p) {
 		p.play();
 	}
 }

@@ -28,6 +28,7 @@ class Student extends Person{
 	}
 	
 	public void Hello() {
+		super.Hello();
 		System.out.println("학번 : "+studentId);		
 	}
 }	
@@ -41,7 +42,7 @@ class Worker extends Person{
 	}
 	
 	public void Hello() {
-		?
+		super.Hello();
 		System.out.println("사번 : "+ workerId);		
 	}
 }
