@@ -15,7 +15,7 @@ class Member{
 		this.age = age;
 	}
 	
-	
+	public String 
 	
 }
 

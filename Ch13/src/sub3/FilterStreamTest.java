@@ -25,6 +25,6 @@ public class FilterStreamTest {
 		System.out.println();
 		
 		
-		
+
 	}
 }
